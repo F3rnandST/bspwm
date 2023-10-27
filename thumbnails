@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+echo Instalamos los paquetes necesarios
+sudo pacman -S tumbler ffmpegthumbnailer gstreamer
+
+killall thunar nemo
+sudo rm -rf ~/.thumbnails/
+
+echo Ahora realizamos un backup de thunar
+mv ~/.config/Thunar/ ~/.config/Thunar.bak
+
+sudo update-mime-database /usr/share/mime 
+
+thunar -q
+
+echo Listo, ya tenemos miniaturas en nuestro Arch...

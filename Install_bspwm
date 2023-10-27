@@ -1,0 +1,296 @@
+#!/bin/bash
+
+CRE=$(tput setaf 1)
+CYE=$(tput setaf 3)
+CGR=$(tput setaf 2)
+CBL=$(tput setaf 4)
+BLD=$(tput bold)
+CNC=$(tput sgr0)
+#
+backup_folder=~/.BackDir
+#date=$(+%Y%m%d-%H%M%%S)
+
+#
+logo () {
+	
+local text="${1:?}"
+echo -en "
+	               %%%                
+	        %%%%%//%%%%%              
+	      %%************%%%           
+	  (%%//############*****%%
+	%%%%%**###&&&&&&&&&###**//
+	%%(**##&&&#########&&&##**
+	%%(**##*****#####*****##**%%%
+	%%(**##     *****     ##**
+	   //##   @@**   @@   ##//
+	     ##     **###     ##
+	     #######     #####//
+	       ###**&&&&&**###
+	       &&&         &&&
+	       &&&////   &&
+	          &&//@@@**
+	            ..***                
+			  z0mbi3 Dotfiles\n\n"
+
+    printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}" "${CNC}" "${CRE}" "${CNC}"
+}
+
+# Verfy that this scritp run as root
+if [ "$(id -u)" = 0 ]; then
+    echo "This script MUST NOT be run as root user."
+    exit 1
+fi
+
+# Confirming i'm ready to modify my config bspwm
+logo "Instalemos bspwm"
+printf '%s%sCon este script podemos configurar bspwm rapidamente en nuestro sistema.'
+
+while true; do
+	read -rp " Do you wish to continue? [y/N]: " yn
+		case $yn in
+      [Yy]* ) break;;
+      [Nn]* ) exit;;
+			* ) printf " Error: just write 'y' or 'n'\n\n";;
+		esac
+    done
+clear
+
+sudo pacman -Syy
+sudo pacman -Syu
+
+#
+logo "Installing needed packages from pacman..."
+
+system=(base-devel cmake rustup)
+
+xorg=(xorg xorg-xinit xorg-apps dbus libxinerama libxrandr libxft libxss libxdg-basedir \
+glib2 pango xorg-xsetroot)
+
+wm=(bspwm sxhkd rofi feh alacritty brightnessctl arandr pamixer dunst libnotify neovim picom \
+scrot maim polybar pavucontrol pastel light bc bluez bluez-utils redshift \
+xclip xcolor wmname gtk2 gtk3 papirus-icon-theme polkit-gnome xf86-input-libinput bat cargo \
+ripgrep libby)
+
+dependencias=(nemo nemo-fileroller telegram-desktop firefox mpv trash-cli \
+qbittorrent inkscape geany eog evince mousepad gnome-disk-utility redshift thunar thunar-volman)
+
+is_installed() {
+  pacman -Qi "$1" &> /dev/null
+  return $?
+}
+
+printf "%s%sChecking for required packages...%s\n" "${BLD}" "${CBL}" "${CNC}"
+for paquete in "${system[@]}" "${xorg[@]}" "${wm[@]}" "${dependencias[@]}"
+do
+  if ! is_installed "$paquete"; then
+    sudo pacman -S "$paquete" --noconfirm
+    printf "\n"
+  else
+    printf '%s%s is already installed on your system!%s\n' "${CGR}" "$paquete" "${CNC}"
+    sleep 1
+  fi
+done
+sleep 3
+clear
+
+####################
+#
+########## ---------- Preparing Folders ---------- ##########
+
+# Verifica si el archivo user-dirs.dirs no existe en ~/.config
+echo Verificando si xdg-user-dirs esta instalado...
+	if [ ! -e "$HOME/.config/user-dirs.dirs" ]; then
+    cp -R .config/xdg-user.dirs && xdg-user-dirs-update
+		echo "Creating xdg-user-dirs"
+	fi
+sleep 2 
+clear
+
+###########################z0mbi3
+#
+########## ---------- Backup files ---------- ##########
+
+logo "Backup files"
+printf "Backup files will be stored in %s%s%s/.RiceBackup%s \n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
+sleep 10
+
+if [ ! -d "$backup_folder" ]; then
+  mkdir -p "$backup_folder"
+fi
+
+for folder in bspwm alacritty picom rofi eww sxhkd dunst polybar ncmpcpp nvim ranger zsh mpd paru; do
+  if [ -d "$HOME/.config/$folder" ]; then
+    mv "$HOME/.config/$folder" "$backup_folder/${folder}_$date"
+    echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
+  else
+    echo "The folder $folder does not exist in $HOME/.config/"
+  fi
+done
+
+for folder in chrome; do
+  if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
+    mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
+    echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
+  else
+    echo "The folder $folder does not exist in $HOME/.mozilla/firefox/"
+  fi
+done
+
+for file in user.js; do
+  if [ -e "$HOME"/.mozilla/firefox/*.default-release/$file ]; then
+    mv "$HOME"/.mozilla/firefox/*.default-release/$file "$backup_folder"/${file}_$date
+    echo "$file file backed up successfully at $backup_folder/${file}_$date"
+  else
+    echo "The file $file does not exist in $HOME/.mozilla/firefox/"
+  fi
+done
+
+[ -f ~/.zshrc ] && mv ~/.zshrc ~/.RiceBackup/.zshrc-backup-"$(date +%Y.%m.%d-%H.%M.%S)"
+
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 5
+
+########## ---------- Copy the Rice! ---------- ##########
+
+logo "Installing dotfiles.."
+printf "Copying files to respective directories..\n"
+
+[ ! -d ~/.config ] && mkdir -p ~/.config
+[ ! -d ~/.local/bin ] && mkdir -p ~/.local/bin
+[ ! -d ~/.icons ] && mkdir -p ~/.icons
+[ ! -d ~/.fonts ] && mkdir -p ~/.fonts
+[ ! -d ~/.scripts ] && mkdir -p ~/.scripts
+[ ! -d ~/.screenlayout ] && mkdir -p ~/.screenlayout
+
+for archivos in .config/*; do
+  cp -R "${archivos}" ~/.config/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+for archivos in .local/*; do
+  cp -R "${archivos}" ~/.local/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s file copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+for archivos in .fonts/*; do
+  cp -R "${archivos}" ~/.fonts
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s file copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+for archivos in .icons/*; do
+  cp -R "${archivos}" ~/.icons/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+for archivos in .scripts/*; do
+  cp -R "${archivos}" ~/.scripts/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s file copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+for archivos in .screenlayout/*; do
+  cp -R "${archivos}" ~/.screenlayout/
+  if [ $? -eq 0 ]; then
+	printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+	sleep 1
+  else
+	printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+	sleep 1
+  fi
+done
+
+cp -f .* "$HOME"
+fc-cache -rv >/dev/null 2>&1
+printf "%s%sFiles copied succesfully!!%s\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 3
+
+########## ---------- Installing Paru & others ---------- ##########
+
+logo "installing Paru & Eww"
+
+	if command -v paru >/dev/null 2>&1; then
+		printf "%s%sParu is already installed%s\n" "${BLD}" "${CGR}" "${CNC}"
+	else
+		printf "%s%sInstalling paru%s\n" "${BLD}" "${CBL}" "${CNC}"
+		{
+			cd "$HOME" || exit
+			git clone https://aur.archlinux.org/paru.git
+			cd paru || exit
+			makepkg -si --noconfirm
+		} || {
+			printf "\n%s%sFailed to install Paru. You may need to install it manually%s\n" "${BLD}" "${CRE}" "${CNC}"
+			}
+	fi
+
+echo Installing PARU packages...
+paru -S librewolf-bin i3lock-color xsettingsd libby-git
+clear
+
+# Installing Eww
+	if command -v eww >/dev/null 2>&1; then 
+		printf "\n%s%sEww is already installed%s\n" "${BLD}" "${CGR}" "${CNC}"
+	else
+		printf "\n%s%sInstalling Eww, this could take 10 mins or more.%s\n" "${BLD}" "${CBL}" "${CNC}"
+		{
+			sudo pacman -S rustup --noconfirm
+			cd "$HOME" || exit
+			git clone https://github.com/elkowar/eww
+			cd eww || exit
+			cargo build --release --no-default-features --features x11
+			sudo install -m 755 "$HOME/eww/target/release/eww" -t /usr/bin/
+		} && {
+			cd "$HOME" || exit
+			rm -rf {paru,.cargo,.rustup,eww}
+		} || {
+        printf "\n%s%sFailed to install Eww. You may need to install it manually%s\n" "${BLD}" "${CRE}" "${CNC}"
+    }
+fi
+#
+########## ---------- Enabling MPD service ---------- ##########
+
+logo "Enabling mpd service"
+
+# Verifica si el servicio mpd está habilitado a nivel global (sistema)
+	if systemctl is-enabled --quiet mpd.service; then
+		printf "\n%s%sDisabling and stopping the global mpd service%s\n" "${BLD}" "${CBL}" "${CNC}"
+		sudo systemctl stop mpd.service
+		sudo systemctl disable mpd.service
+	fi
+
+printf "\n%s%sEnabling and starting the user-level mpd service%s\n" "${BLD}" "${CYE}" "${CNC}"
+systemctl --user enable --now mpd.service
+
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 2
+
+echo BSPWM ESTA INSTALADO Y CONFIGURADO.
