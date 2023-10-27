@@ -1,0 +1,398 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: play
+current: 149
+time: 120.195000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:11. SOLEDAD - Doble ONE ⧸⧸VIDEO OFICIAL⧸⧸ #TALENTODEVIDA [sQzjr8gm6h0].flac
+1:14. MI KRYPTONITA - Doble ONE #TALENTODEVIDA [AY_kG0whV7c].flac
+2:5. E. L. L. A - Doble ONE #TALENTODEVIDA [3IR04opx8zU].flac
+3:Amnesia.flac
+4:Carmen DeLeon - Cafecito (Video Oficial) [FouzNPDgOv4].flac
+5:EL FRANKIE (feat. Doble ONE Flow Letal) [4qjC0G5SerQ].flac
+6:Fake Blood - I Think I Like It ｜ Sub Español [WTFXRUDVTOA].flac
+7:Flor de loto.flac
+8:JAURIA SANTA ⧸⧸ CONSUMO ⧸⧸ VIDEO OFICIAL [EgQl5fBhtts].flac
+9:JAURIA SANTA ⧸⧸ QUE SI FUMO TANTO ⧸⧸ VIDEO OFICIAL [bXmOikOzopE].flac
+10:Junior H - Atrapado en un Sueño (Letra⧸Lyric Video) 2020 [_Ql85s9cwzw].flac
+11:LEÓN & CHUCKY ⧸⧸SEMAR⧸ POLICÍA MILITAR⧸⧸ - Doble ONE [e0oXNqWYmcI].flac
+12:Lo que llevo.flac
+13:MERCENARIOS DE GU3RR4 (León🦁 & Lobo🐺) - Doble ONE ft.@MR.TYSON_LB [3KtUJVvJrOc].flac
+14:Mi fantasia.flac
+15:Sublime Mujer [49SS7ae9FPA].flac
+16:Un porro.flac
+17:Yahritza Y Su Esencia - Soy El Unico [9yOTH8KxIqM].flac
+18:Full/Banda Tierra Sagrada - La Buena y la Mala.flac
+19:Full/Banda MS de Sergio Lizárraga - Hermosa Experiencia.flac
+20:Full/German Montero - A Traves del Vaso.flac
+21:Full/Christian Nodal - Adiós Amor.flac
+22:Full/Aerosmith - Dream On.mp3
+23:Full/Banda MS de Sergio Lizárraga - Mi Olvido.flac
+24:Full/Guns N' Roses - Paradise City.flac
+25:Full/Guns N' Roses - Sweet Child O' Mine.flac
+26:Full/Guns N' Roses - Welcome To The Jungle.flac
+27:Full/Banda Tierra Sagrada - Así Te Quiero Yo.flac
+28:Full/Junior H - Pakas en las Rakas.flac
+29:Full/ACDC - Back In Black.flac
+30:Full/ACDC - You Shook Me All Night Long.flac
+31:Full/Imagine Dragons - Believer.flac
+32:Full/ACDC - Rock N Roll Train.flac
+33:Full/Twenty One Pilots - Stressed Out.flac
+34:Full/Bon Jovi - It's My Life.mp3
+35:Full/ACDC - Hells Bells.mp3
+36:Full/Gera MX - Botella Tras Botella.flac
+37:Full/Bryant Myers - No Ando Solo.mp3
+38:Full/System of a Down - Chop Suey!.flac
+39:Full/Los Enanitos Verdes - Lamento Boliviano.flac
+40:Full/Scorpions - Rock You Like a Hurricane (2011).flac
+41:Full/Scorpions - Still Loving You.flac
+42:Full/Calibre 50 - Tus Latidos.flac
+43:Full/Junior H - Disfruto Lo Malo.flac
+44:Full/Junior H - Ella.flac
+45:Full/Scorpions - Wind Of Change.flac
+46:Full/Scorpions - Send Me An Angel.flac
+47:Full/Alta Consigna - Culpable Tu.mp3
+48:Full/Leandro Ríos - Debajo del Sombrero (feat. Banda Tierra Sagrada).flac
+49:Full/Carla Morrison - Disfruto.flac
+50:Full/Los Plebes del Rancho de Ariel Camacho - DEL Negociante.mp3
+51:Full/Justin Morales - Desde Morro.mp3
+52:Full/La Adictiva - Disfruté Engañarte.flac
+53:Full/La Adictiva - En la Sierra y la Ciudad (La China).flac
+54:Full/La Adictiva - El Viejón.flac
+55:Full/La Adictiva - Qué Caro Estoy Pagando.flac
+56:Full/KISS - I Was Made For Lovin' You.mp3
+57:Full/The Weeknd - Earned It (Fifty Shades Of Grey) (From The Fifty Shades Of Grey Soundtrack).flac
+58:Full/Iron Maiden - The Trooper (1998 Remaster).flac
+59:Full/Iron Maiden - Aces High (1998 Remaster).flac
+60:Full/La Poderosa Banda San Juan - Yo Pongo Las Reglas.flac
+61:Full/La Arrolladora Banda El Limón De Rene Camacho - El Ruido De Tus Zapatos.flac
+62:Full/Banda MS de Sergio Lizárraga - La Casita.flac
+63:Full/El Bebeto - No Te Creas Tan Importante.flac
+64:Full/Banda MS de Sergio Lizárraga - Piénsalo (Inédita).flac
+65:Full/El Bebeto - Lo Legal.flac
+66:Full/Iron Maiden - Fear of the Dark (2015 Remaster).flac
+67:Full/Los Lara - Fumando Mota.mp3
+68:Full/Metallica - Whiskey In The Jar.flac
+69:Full/La Arrolladora Banda El Limón De Rene Camacho - Mi Segunda Vida.flac
+70:Full/Jake Owen - Eight Second Ride.flac
+71:Full/Kevin Kaarl - Vámonos a Marte.mp3
+72:Full/Natalia Lafourcade - Hasta la Raíz.flac
+73:Full/ACDC - T.N.T..mp3
+74:Full/ACDC - Highway to Hell.flac
+75:Full/Banda Carnaval - Te Cambio El Domicilio.flac
+76:Full/Plan B - Si No Le Contesto.flac
+77:Full/Plan B - Es un Secreto.flac
+78:Full/Linkin Park - In the End.flac
+79:Full/La Arrolladora Banda El Limón De Rene Camacho - El Final De Nuestra Historia.flac
+80:Full/Don Omar - Virtual Diva.flac
+81:Full/Disturbed - The Sound of Silence.flac
+82:Full/Disturbed - Indestructible.flac
+83:Full/Disturbed - The Night.flac
+84:Full/Claudio Alcaraz - Memorias de un Idiota.flac
+85:Full/Metallica - Seek & Destroy (Remastered).flac
+86:Full/Farruko - Pepas.mp3
+87:Full/Noel Torres - Para Qué Tantos Besos.flac
+88:Full/Banda El Recodo De Cruz Lizarraga - La Mejor De Todas.flac
+89:Full/Banda El Recodo De Cruz Lizarraga - La Miel De Su Saliva.flac
+90:Full/Alfredo Olivas - El Paciente.flac
+91:Full/La Arrolladora Banda El Limón De Rene Camacho - Llamada De Mi Ex.flac
+92:Full/La Arrolladora Banda El Limón De Rene Camacho - Ya No Te Buscaré.flac
+93:Full/Led Zeppelin - Whole Lotta Love (Remaster).mp3
+94:Full/Led Zeppelin - Black Dog (Remaster).mp3
+95:Full/Led Zeppelin - Rock and Roll (Remaster).mp3
+96:Full/ACDC - Let There Be Rock.flac
+97:Full/Linkin Park - LOST IN THE ECHO.flac
+98:Full/Linkin Park - BURN IT DOWN.flac
+99:Full/La Arrolladora Banda El Limón De Rene Camacho - Cosas Que Nunca Te Dije.flac
+100:Full/Wisin & Yandel - Estoy Enamorado.flac
+101:Full/Deep Purple - Smoke On The Water (Remastered 2012).mp3
+102:Full/Banda Los Recoditos - Al Rescate.flac
+103:Full/Linkin Park - Faint.flac
+104:Full/Linkin Park - Breaking the Habit.flac
+105:Full/Linkin Park - Numb.flac
+106:Full/Banda MS de Sergio Lizárraga - Sigue.mp3
+107:Full/Banda MS de Sergio Lizárraga - Dicen Del Señor.mp3
+108:Full/Banda MS de Sergio Lizárraga - Libre De Mí.mp3
+109:Full/santa rm - Mi Última Canción de Amor.flac
+110:Full/Banda El Recodo De Cruz Lizarraga - Mi Vicio Más Grande.flac
+111:Full/Linkin Park - Leave Out All The Rest.flac
+112:Full/Linkin Park - What I've Done.flac
+113:Full/Zoé - Soñé (En Vivo).flac
+114:Full/Zoé - Labios Rotos (En Vivo).flac
+115:Full/santa rm - Mucho para Mí.flac
+116:Full/Ryan Castro - Mujeriego.flac
+117:Full/Lefty Sm - Por Mi México.mp3
+118:Full/Bon Jovi - I'll Be There For You.mp3
+119:Full/Julion Alvarez Y Su Norteño Banda - Ni Diablo Ni Santo.flac
+120:Full/Julion Alvarez Y Su Norteño Banda - Esta Noche Se Me Olvida.flac
+121:Full/Banda MS de Sergio Lizárraga - Háblame De Ti.flac
+122:Full/Banda MS de Sergio Lizárraga - A Lo Mejor.flac
+123:Full/Banda MS de Sergio Lizárraga - Excepto A Ti.flac
+124:Full/Christian Nodal - No Te Contaron Mal.mp3
+125:Full/La Arrolladora Banda El Limón De Rene Camacho - Ojos En Blanco.flac
+126:Full/La Arrolladora Banda El Limón De Rene Camacho - Confesión.mp3
+127:Full/Piso 21 - Pa' Olvidarme De Ella.mp3
+128:Full/Saul El Jaguar Alarcón - Para Que No Te Lo Imagines.flac
+129:Full/Christian Nodal - Probablemente.flac
+130:Full/Duelo - Puño De Diamantes.flac
+131:Full/Plan B - Fanatica Sensual.flac
+132:Full/Andrés Calamaro - Mil Horas.flac
+133:Full/Los Enanitos Verdes - Amores Lejanos.flac
+134:Full/Survivor - Eye of the Tiger.mp3
+135:Full/La Arrolladora Banda El Limón De Rene Camacho - Irreversible.flac
+136:Full/Pablo Alboran - Saturno.flac
+137:Full/Başak Gümülcinelioğlu - Sen Çal Kapımı.flac
+138:Full/Los Gfez - Bien Servida (feat. Diego Herrera).flac
+139:Full/Bon Jovi - Livin' On A Prayer.mp3
+140:Full/Banda Tierra Sagrada - Soy un Desmadre.flac
+141:Full/Iron Maiden - Hallowed Be Thy Name (2015 Remaster).flac
+142:Full/System of a Down - Toxicity.flac
+143:Full/System of a Down - Psycho.flac
+144:Full/Linkin Park - New Divide.flac
+145:Full/Natanael Cano - Yo Vengo De Barrio.mp3
+146:Full/Guns N' Roses - Don't Cry (Original).flac
+147:Full/Guns N' Roses - November Rain.flac
+148:Full/Lefty Sm - Volando.mp3
+149:Full/KALEO - Way down We Go.flac
+150:Full/Xtreme - Te Extraño (Bachata Version).flac
+151:Full/Bad Wolves - Zombie.flac
+152:High/Neto Peña Ft Gera - Nada me va a importar - Letra [k52vWmr17HA].flac
+153:High/2_5215631043847003630.flac
+154:High/2_5310301314280854206.flac
+155:High/2_5427264878752568136.flac
+156:High/2_5415836881310977898.flac
+157:High/2_5467489141560185855.flac
+158:High/2_5233630568884736873.flac
+159:High/2_5238132742582966436.flac
+160:High/Bobby Cole - Big Rock Balls (Alt Mix).flac
+161:High/2_5222268851378460477.flac
+162:High/2_5291836704414505495.flac
+163:High/2_5454314801826107336.flac
+164:High/2_5469737458155393337.flac
+165:High/2_5190616325386408444.flac
+166:High/La Poderosa Banda San Juan - Claro.flac
+167:High/2_5267258827077587477.flac
+168:High/2_5233533678717507875.flac
+169:High/Montserrat Alay - Esta vida me encanta (COVER).flac
+170:High/2_5434120630104494970.flac
+171:High/2_5434120630104494965.flac
+172:High/2_5434120630104494976.flac
+173:High/2_5190660580729426559.flac
+174:High/2_5190660580729426574.flac
+175:High/2_5222050452291458512.flac
+176:High/Danuzko - La Traición.flac
+177:High/2_5467869018532614902.flac
+178:High/Alberto Y Roberto - Loco Tu Forma De Ser.flac
+179:High/Manowar - Brothers Of Metal (Part 1).flac
+180:High/Linkin Park - Somewhere I Belong.flac
+181:High/Valeria Salinas - Saturno.flac
+182:High/2_5413603395237841126.flac
+183:High/2_5210999591633162385.flac
+184:High/2_5463168537604395659.flac
+185:High/2_5210999591633162394.flac
+186:High/2_5343869335557378584.flac
+187:High/La Poderosa Banda San Juan - Te Falto Yo.flac
+188:High/2_5440554963560306270.flac
+189:High/2_5355249121991070795.flac
+190:High/2_5291836704414505471.flac
+191:High/2_5291836704414505472.flac
+192:High/2_5192868125200093465.flac
+193:High/2_5192868125200093464.flac
+194:High/2_5420570570926330282.mp3
+195:High/Con tus besos.flac
+196:High/2_5237691688096370963.flac
+197:High/Natalia Aguilar - Ya Me Enteré.flac
+198:Others/'NO_HAY_MANERA'_AKWID_LETRA(256k).mp3
+199:Others/Bruno Martini - Sun Goes Down ft. Isadora ( 160kbps ).mp3
+200:Others/Carmen_DeLeon_-_B_same_Bonito__Ac_stica_.mp3
+201:Others/Dj Snake - Middle (Lyrics) ft. Bipolar Sunshine ( 160kbps ).mp3
+202:Others/Dynoro_&_Gigi_D’Agostino_-_In_My_Mind(256k).mp3
+203:Others/Elektronomia - Sky High _NCS Release_ ( 160kbps ).mp3
+204:Others/eminem  lose yourself  lyrics ( 256kbps cbr ).mp3
+205:Others/Eminem - Not Afraid Lyrics (HD) ( 256kbps cbr ).mp3
+206:Others/Fat Joe, Remy Ma - All The Way Up ft. French Montana, Infared (Official Music Video) ( 256kbps cbr ).mp3
+207:Others/Hardwell feat. Jonathan Mendelsohn - Echo (Official Music Video) ( 160kbps ).mp3
+208:Others/Jonas Blue - By Your Side ft. RAYE ( 160kbps ).mp3
+209:Others/Lefty Sm Ft Toser One - Voy Por El Oro _ Letras ( 256kbps cbr ).mp3
+210:Others/Lilly_Wood_&_The_Prick_and_Robin_Schulz_-_Prayer_In_C_(Robin_Schulz_Remix)_(Official)(256k).mp3
+211:Others/Linkin Park - Leave Out All The Rest _ Subtitulada En Español ( 256kbps cbr ).mp3
+212:Others/Linkin Park - Somewhere I belong (Ingles - Español) ( 256kbps cbr ).mp3
+213:Others/Linkin Park In Pieces Subtitulada Español Inglés ( 256kbps cbr ).mp3
+214:Others/Martin Garrix   Animals lyrics ( 256kbps cbr ).mp3
+215:Others/Martin Garrix & Bebe Rexha - In The Name Of Love (Official Video) ( 160kbps ).mp3
+216:Others/Martin Garrix & Brooks - Byte ( 160kbps ).mp3
+217:Others/Martin Garrix & Third Party - Lions In The Wild _Official Video_ ( 160kbps ).mp3
+218:Others/Mi_historia_entre_tus_dedos_-_Gianluca__Cover_Ana_.mp3
+219:Others/Mike Posner - I Took A Pill In Ibiza (SeeB Remix) ( 256kbps cbr ).mp3
+220:Others/Never Back Down - Remember the name-FortMinor ( 256kbps cbr ).mp3
+221:Others/Robin Schulz- Sun Goes Down (Lyrics_ Sub Español) ( 160kbps ).mp3
+222:Others/Steve Aoki & Louis Tomlinson - Just Hold On (Cover Art) ( 160kbps ).mp3
+223:Others/Te_vi_venir_-_Sin_Bandera__Cover_Ana_.mp3
+224:Others/Tones and I - Dance Monkey (Lyrics) ( 256kbps cbr ).mp3
+225:Others/11. SOLEDAD - Doble ONE ⧸⧸VIDEO OFICIAL⧸⧸ #TALENTODEVIDA [sQzjr8gm6h0].mp3
+226:Others/14. MI KRYPTONITA - Doble ONE #TALENTODEVIDA [AY_kG0whV7c].mp3
+227:Others/5. E. L. L. A (VÍDEO OFICIAL) - Doble ONE Prod. @EGMusicStudio #TALENTODEVIDA [OMBP6t1A1S4].mp3
+228:Others/Lefty Sm - Ando Al Millón.mp3
+229:Others/Daniel Castro - I'll Play The Blues For You [ioOzsi9aHQQ].m4a
+230:Others/ELLA ME TIENE LOCO💞 [VÍDEO OFICIAL] - Doble ONE (Ft. FLAKO HIP HOP) [NiEXAHlxXKY].mp3
+231:Others/Lefty Sm - Encerrado En Mi Mundo.mp3
+232:Others/In the end - Linkin Park _ letra ( 256kbps cbr ).mp3
+233:Others/Maroon 5 - Animals (Lyrics) [0GVExpdmoDs].mp3
+234:Others/Lefty Sm - Nada.mp3
+235:Others/Lefty Sm - No Te Importó.mp3
+236:Others/Lefty Sm - Pa' Andar Risueño.mp3
+237:Others/Eminem ft Rihanna - Love the way you lie  LYRICS ( 256kbps cbr ).mp3
+238:Others/Alok, Bruno Martini Ft. Zeeba - Hear Me Now _ Sub Español ( 160kbps ).mp3
+239:Others/Carta de sinceridad _ Piter-G y Porta _2014_ ( 256kbps cbr ).mp3
+240:Others/Eminem - Lose Yourself Traducida Español ( 256kbps cbr ).mp3
+241:Others/JRND & VMK - Make Dem (feat. Kédo Rebelle) ( 256kbps cbr ).mp3
+242:Others/La Bicicleta - Carlos Vives FT. Shakira LETRA ( 160kbps ).mp3
+243:Others/Linkin Park what i´ve done sub español ( 256kbps cbr ).mp3
+244:Others/mago de oz - molino de viento lyrics ( 256kbps cbr ).mp3
+245:Others/Martin Garrix & Tiësto - The Only Way Is Up (Official Music Video) ( 160kbps ).mp3
+246:Others/NEZTOR MVL - NO TE IMPORTO 2 (LETRA) ( 160kbps ).mp3
+247:Others/Porta _ Cosas de la vida 1.5 ( 256kbps cbr ).mp3
+248:Others/Porta _ Imperfecto ( 256kbps cbr ).mp3
+249:Others/Porta - Algo ha cambiado ( 256kbps cbr ).mp3
+250:Others/Porta - Cree en ti _2014_ ( 256kbps cbr ).mp3
+251:Others/Santa Fe Klan - Cypher ft Rich Vagos y Familia Alzada. (Video Y Letra) ( 256kbps cbr ).mp3
+252:Others/Neztor Mvl Mi Error LETRA _ (Link de descarga) ( 160kbps ).mp3
+253:Rap-Belico/_ELEMENTOS_DE_REACCION___G.A.T.E__-_SLYP_RAY,_MORENO_BELICO,_BROS_LC,_J.R____RAP_BELICO_2021(256k).mp3
+254:Rap-Belico/_GENTE DE LA ARMADA_ - J.R FT. ZOMBIE R8 __ INFANTERIA DE MARINA __ RAP BELICO 2021 ( 256kbps cbr ).mp3
+255:Rap-Belico/_HORA_DE_PARTIR__-_J.R_FT._MC_RAZO____RAP_BELICO_2021(256k).mp3
+256:Rap-Belico/A la PM puse en alto.mp3
+257:Rap-Belico/BIEN ENTRENADO.mp3
+258:Rap-Belico/Boina y calavera.mp3
+259:Rap-Belico/CARGO UNA DIESTRA MANIÁTICA (Para El COMANDO RANGO) __POLICÍA MILITAR__ - Doble ONE ( 256kbps cbr ).mp3
+260:Rap-Belico/Cartel del gobierno V3.mp3
+261:Rap-Belico/Cartel Del Gobierno.mp3
+262:Rap-Belico/CLAVE V (POLICÍA ESTATAL) - Doble ONE ( 256kbps cbr ).mp3
+263:Rap-Belico/comandante 80 V2.mp3
+264:Rap-Belico/COMANDANTE DIABLO (Para EL SARGENTO ROQUE) __4TO B.O.E__ - Doble ONE ft. FLAKO HIP-HOP BÉLICO ( 256kbps cbr ).mp3
+265:Rap-Belico/Comandante Judas.mp3
+266:Rap-Belico/Comandante Lima V2.mp3
+267:Rap-Belico/Comandante Marcos [1eiU4hpKnlA].mp3
+268:Rap-Belico/Cuadro del infierno V2 (babysyko) ( 256kbps cbr ).mp3
+269:Rap-Belico/DEL CIELO A LA MISIÓN (De Parte Del Chacal) VIEJA ESCUELA __FUSPAR__ - Doble ONE ( 256kbps cbr ).mp3
+270:Rap-Belico/DESC4NS4N EN P4Z (Para EL DI4BLO) __MURCIÉLAGOS VERDES__ - Doble ONE ( 256kbps cbr ).mp3
+271:Rap-Belico/Dino Prats.mp3
+272:Rap-Belico/El Chute.mp3
+273:Rap-Belico/El Comando Busta [U_PgGGYn0mA].mp3
+274:Rap-Belico/EL FERRAEZ - MR TYSON (VIDEO OFICIAL) ( 256kbps cbr ).mp3
+275:Rap-Belico/EL FLACO (FUERZA CIVIL) - Doble ONE ( 256kbps cbr ).mp3
+276:Rap-Belico/EL HARRY _mx_(SEDENA_CFE) - Doble ONE ( 256kbps cbr ).mp3
+277:Rap-Belico/El JR7 [WYr-eIbfCB8].mp3
+278:Rap-Belico/EL ÑERO SDN - MR TYSON ( 256kbps cbr ).mp3
+279:Rap-Belico/EL TOPON DE VILLAUNION _POLICIA PCC_  ESE GORRIX (2020) ( 256kbps cbr ).mp3
+280:Rap-Belico/EL_CONTRA_(UNOPES)_-_MR.TYSON(256k).mp3
+281:Rap-Belico/Fantasmas ( 256kbps cbr ).mp3
+282:Rap-Belico/Guerrero del desierto.mp3
+283:Rap-Belico/IVAN_MENCHACA_(El_Molongo)_-_MR.TYSON(256k).mp3
+284:Rap-Belico/LEÓN & CHUCKY __SEMAR_ POLICÍA MILITAR__ - Doble ONE ( 256kbps cbr ).mp3
+285:Rap-Belico/LOS TIEMPOS CAMBIARON (NICO TERCERO) - Doble ONE ( 256kbps cbr ).mp3
+286:Rap-Belico/MR TYSON - COMANDANTE SOMBRA (PEC) ( 256kbps cbr ).mp3
+287:Rap-Belico/Mr Tyson- Escuadrones de la muerte ( 128kbps ).mp3
+288:Rap-Belico/Mr Tyson- Siempre Leales ( 256kbps cbr ).mp3
+289:Rap-Belico/NACÍ CON DESTREZA (EL RUIZ) __SEMAR__ - Doble ONE ( 256kbps cbr ).mp3
+290:Rap-Belico/No Tengas Miedo.mp3
+291:Rap-Belico/PERROS DE GUERRA - J.R __ RAP BÉLICO __ KOMANDO RECORDS ( 256kbps cbr ).mp3
+292:Rap-Belico/PITBULLS_DE_GUERRA___SEMAR__-_COMANDO_LOBO_FT_MC_KREYSY_FT_MORENO_BÉLICO___RAP_MILITAR_[HUGO_BEATZ](256k).mp3
+293:Rap-Belico/Puño Arribá.mp3
+294:Rap-Belico/RAP _POLICIA_ - _MOTIVACION_ - LOS BUENOS SOMOS MAS (V.2) - Ese Gorrix (2019) ( 256kbps cbr ).mp3
+295:Rap-Belico/Rap Ejercito Mexicano _ JAMAS ENTENDERÁN _ V4 _ 2017. ( 256kbps cbr ).mp3
+296:Rap-Belico/RAUL GUZMAN - MR TYSON ( 256kbps cbr ).mp3
+297:Rap-Belico/Represento A Los Verdes (Para El Soldado Amancio) - Doble ONE ( 256kbps cbr ).mp3
+298:Rap-Belico/REYES MARTINEZ - Mr.Tyson ( 256kbps cbr ).mp3
+299:Rap-Belico/ROKO MENDOZA - Mr.Tyson ( 256kbps cbr ).mp3
+300:Rap-Belico/SALIDOS DEL INFIERNO - J.R __ VIDEO __FUERZAS ESPECIALES __ KOMANDO RECORDS ( 256kbps cbr ).mp3
+301:Rap-Belico/SANGRE DE GUERRA (Nueva Version) - RAP MOTIVACION MILITAR - ESE GORRIX ( 256kbps cbr ).mp3
+302:Rap-Belico/Señor Civilon.mp3
+303:Rap-Belico/SIEMPRE FIRME (GN) _ Slyp Ray ft El Moreno Bélico, Jr Rap Bélico y Métrica Blindada ( 256kbps cbr ).mp3
+304:Rap-Belico/SUEÑO DE NIÑO - J.R __ - RapSEDENA __ - 2017 - ( 256kbps cbr ).mp3
+305:Rap-Belico/TÍTULO DE GAFE_skull_(EL VIZKA) - Doble ONE ( 256kbps cbr ).mp3
+306:Rap-Belico/VOY PA´ DELANTE (EL GABO DE LUISIANA) - Doble ONE ( 256kbps cbr ).mp3
+307:Rap-Belico/1. TALENTO DE VIDA - Doble ONE (ONE SHOT) Prod. @EGMusicStudio [tJMf3mazud0].opus
+308:Rap-Belico/2. MALA MUJER - Doble ONE @DeckoBeats Prod. @EGMusicStudio [s7cRPWuuZKk].opus
+309:Rap-Belico/J.R Rap Belico - Accion Y Reaccion V1 (feat. Saico Lokmy).flac
+310:Rap-Belico/J.R Rap Belico - Accion Y Reaccion V2.flac
+311:Rap-Belico/Arriba De Una Cheyenne Remix (VideoLyric) __El Jamer Ft JR Rap Belico X Yibran Belico X Zombie El R8(MP3_320K).mp3
+312:Rap-Belico/_LA_EMBOSCADA_DE_CABORCA__-_J.R____RAP_BELICO____KOMANDO_RECORDS____2021(256k).mp3
+313:Rap-Belico/Elemento Puga.mp3
+314:Rap-Belico/LAGARTOS - 18 C.I.N.E.mp3
+315:Rap-Belico/Comandante Bope.mp3
+316:Rap-Belico/Delinqueando - (Video Con Letras) - El Makabelico - DEL Records 2021(MP3_320K).mp3
+317:Rap-Belico/Doble ONE Flow Letal - El Cobio.mp3
+318:Rap-Belico/MR Tyson - El Conriquez Infante de Marina.flac
+319:Rap-Belico/El Famoso Sanchez V4 - Comando Exclusivo ft. El Makabelico [ARVOhwKeksY].mp3
+320:Rap-Belico/MR Tyson - El kaoz fuspar.flac
+321:Rap-Belico/Doble ONE Flow Letal - El Loco.flac
+322:Rap-Belico/Doble ONE Flow Letal - El Loki.mp3
+323:Rap-Belico/Escuela de francotirador.mp3
+324:Rap-Belico/COMANDO DE GUERRA--- ESE GORRIX (VIDEO OFICIAL) _Corridosbelicos(MP3_320K).mp3
+325:Rap-Belico/DEL EJEMEX YO ME GRADUE ---- _ LUCIFER -- _ Rap Corridos Belicos - ESE GORRIX [2023](MP3_320K).mp3
+326:Rap-Belico/EL GHOST _ CALL OF DUTY _ - ESE GORRIX (VIDEO OFICIAL) _Corridosbelicos(MP3_320K).mp3
+327:Rap-Belico/EL GHOST _ Rap Corridos Belicos - ESE GORRIX [2023](MP3_320K).mp3
+328:Rap-Belico/EL MARINO LOKO V5 --☠️ - ESE GORRIX (VIDEO OFICIAL) _Corridosbelicos(MP3_320K).mp3
+329:Rap-Belico/Experiencia en el Combate--_ Rap Corridos Belicos ----⚓️- ESE GORRIX [2023](MP3_320K).mp3
+330:Rap-Belico/NO ME HABLE DE LA MUERTE-- - ESE GORRIX (VIDEO OFICIAL) _Corridosbelicos(MP3_320K).mp3
+331:Rap-Belico/SOY UN VETERANO-- (EJEMEX----) _VIDEO LYRIC_ - ESE GORRIX _Corridosbelicos(MP3_320K).mp3
+332:Rap-Belico/FLOW LETAL💀 LO QUE LLEVO🔥 (VÍDEO OFICIAL) - Doble ONE [OZMV53cYIN4].opus
+333:Rap-Belico/Doble ONE Flow Letal - La Gloria Es Eterna.flac
+334:Rap-Belico/MR TYSON___EDUARDO LUGO___(el nazy) ( 256kbps cbr ).mp3
+335:Rap-Belico/Doble ONE Flow Letal - Mercenarios De Guerra (feat. Mr. Tyson).flac
+336:Rap-Belico/Mercenarios De Guerra.flac
+337:Rap-Belico/Mr.Tyson- Miyagi (Elemento Semar)(MP3_320K).mp3
+338:Rap-Belico/MR Tyson - Punisher artillero.flac
+339:Rap-Belico/Doble ONE Flow Letal - Soldado Nemo.mp3
+340:Rap-Belico/Cartel del gobierno V4.mp3
+341:Rap-Belico/Legado Del Comandante - J.r (1).mp3
+342:Rap-Belico/MI SUEÑO (Cristian Flores) - Mr Tyson ( 256kbps cbr ).mp3
+343:Rap-Belico/_BELICOS DEL 56_ - J.R __ RAP BELICO 2019 ( 256kbps cbr ).mp3
+344:Rap-Belico/COMANDANTE BRO (gate) - Mr Tyson ( 256kbps cbr ).mp3
+345:Rap-Belico/COMANDANTE H - Mr Tyson ( 256kbps cbr ).mp3
+346:Rap-Belico/Comandante Hércules_JR.mp3
+347:Rap-Belico/COMANDANTE HUMMER - MR TYSON ( 256kbps cbr ).mp3
+348:Rap-Belico/COMANDANTE MENDOZA.mp3
+349:Rap-Belico/Comandante SKY y los guerreros de Guerrero.mp3
+350:Rap-Belico/DEMONIOS DE LA SELVA -- FUERZAS ESPECIALES DE LA MARINA - ESE GORRIX .mp3
+351:Rap-Belico/Destino Marcado.mp3
+352:Rap-Belico/Doble One- Dedicada para los guerreros caidos ( 256kbps cbr ).mp3
+353:Rap-Belico/El Cuervo - Mr Tyson ( 256kbps cbr ).mp3
+354:Rap-Belico/El Koreano.mp3
+355:Rap-Belico/EL LOBO _wolf_ - mr tyson ( 256kbps cbr ).mp3
+356:Rap-Belico/EL MINI TYZON _sunglasses_ ( 256kbps cbr ).mp3
+357:Rap-Belico/El Raptor.mp3
+358:Rap-Belico/El topon de Villa Unión - Comandante Monstruo.mp3
+359:Rap-Belico/EL TOPON DE VILLAUNION (GRUPO ORION) - Mr Tyson ( 256kbps cbr ).mp3
+360:Rap-Belico/El wason.mp3
+361:Rap-Belico/EL WERO SDN -  mr tyson ( 256kbps cbr ).mp3
+362:Rap-Belico/ESE GORRIX - ANDO BIEN BLINDADO (LETRA) __ SEDENA Y SEMAR ( 256kbps cbr ).mp3
+363:Rap-Belico/FUERZA CIVIL__EL TIJUAS ( 256kbps cbr ).mp3
+364:Rap-Belico/FUERZA TAMAULIPAS __ EL MARINO ( 256kbps cbr ).mp3
+365:Rap-Belico/LOS INFERNALES (fuspar) - Mr tyson ( 256kbps cbr ).mp3
+366:Rap-Belico/Marina Armada De México--Ese Gorrix ( 128kbps ).mp3
+367:Rap-Belico/Marino Delta.mp3
+368:Rap-Belico/MC RAZO - POCOS PUDIERON. MBEATZ ( 256kbps cbr ).mp3
+369:Rap-Belico/MC RAZO -BATALLÓN ANFIBIO DE INFANTERÍA ( 256kbps cbr ).mp3
+370:Rap-Belico/MC RAZO -SOMOS LOCOS.  MOTIVACION MILITAR V3. ( 256kbps cbr ).mp3
+371:Rap-Belico/Mc Razo ft Farto -LO MEJOR DE LO MEJOR(SEMAR) ( 256kbps cbr ).mp3
+372:Rap-Belico/Murciélagos.mp3
+373:Rap-Belico/POCOS SABEN DE ESTO - RAP MOTIVACION MILITAR Y POLICIA - ESE GORRIX (2019) ( 256kbps cbr ).mp3
+374:Rap-Belico/POPEYE (unopes) - Mr Tyson ( 256kbps cbr ).mp3
+375:Rap-Belico/Rap del 423.mp3
+376:Rap-Belico/RAP INFANTERÍA DE MARINA ARMADA DE MÉXICO 2017_mx_ ( 256kbps cbr ).mp3
+377:Rap-Belico/SALIDO DEL INFIERNO - (El Chairez V.4) - Ese Gorrix 2019 ( 256kbps cbr ).mp3
+378:Rap-Belico/Ser de caballería.mp3
+379:Rap-Belico/Soy el Diablo JR.mp3
+380:Rap-Belico/Tercia De Ases.mp3
+381:Rap-Belico/Un mismo objetivo.mp3
+382:Rap-Belico/NOCTURNOS - J.R - RAP BELICO.mp3
+playlist_end

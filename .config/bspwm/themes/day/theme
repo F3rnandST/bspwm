@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cat ~/.config/bspwm/alacritty/alacritty.yml >> ~/.config/alacritty/alacritty.yml
+cat ~/.config/bspwm/alacritty/colors.yml >> ~/.config/alacritty/colors.yml
+cat ~/.config/bspwm/alacritty/fonts.yml >> ~/.config/alacritty/fonts.yml
+
+# Rofi themes
+cat ~/.config/bspwm/themes/day/rofi/shared/colors.rasi >> ~/.config/rofi/themes/shared/colors.rasi
+cat ~/.config/bspwm/themes/day/rofi/shared/fonts.rasi >> ~/.config/rofi/themes/shared/fonts.rasi
+cat ~/.config/bspwm/themes/day/rofi/menu.rasi >> ~/.config/rofi/themes/menu.rasi

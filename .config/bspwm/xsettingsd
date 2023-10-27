@@ -1,0 +1,10 @@
+Net/ThemeName "ThinIce"
+Net/IconThemeName "Papirus"
+Gtk/CursorThemeName "Catppuccin Dark"
+Net/EnableEventSounds "1"
+Net/EnableInputFeedbackSounds "1"
+Xft/DPI "-1"
+Xft/Hinting 1
+Xft/HintStyle "hintslight"
+Xft/Antialias 1
+Xft/RGBA "none"

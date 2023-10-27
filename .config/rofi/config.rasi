@@ -1,0 +1,10 @@
+@theme "~/.config/rofi/themes/menu.rasi"
+
+/*---------- File browser settings ----------*/
+filebrowser {
+	directory: "/home/";
+	directories-first: true;
+	sorting-method:    "name";
+}
+
+

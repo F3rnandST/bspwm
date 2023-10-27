@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Abrir un terminal aquí</name>
+	<submenu></submenu>
+	<unique-id>1697516667332740-1</unique-id>
+	<command>alacritty --working-directory %f</command>
+	<description>Ejemplo de una acción personalizada</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>neovim</icon>
+	<name>Editar con Neovim</name>
+	<submenu></submenu>
+	<unique-id>1697518220754666-2</unique-id>
+	<command>/usr/bin/alacritty -e nvim %f</command>
+	<description>Editar con neovim</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+BSPDIR="$HOME/.config/bspwm/"
+SCRIDIR="$HOME/.scripts/"
+export PATH="${PATH}:$BSPDIR/scripts"
+export PATH="${PATH}:$BSPDIR/bin"
+export PATH="${PATH}:$SCRIDIR"
+
+processes=("bspc" "picom" "polybar" "sxhkd" "dunst")
+for process in "${processes[@]}"; do
+  if pidof -q "$process"; then
+    pkill -9 -x "$process" > /dev/null; sleep 0.1
+  fi
+done
+
+#eww -c ~/.config/bspwm/eww/bar open bar &
+
+sxhkd -c "$BSPDIR"/sxhkdrc &
+dunst -config ~/.config/dunst/dunstrc &
+bspc config external_rules_command $HOME/.config/bspwm/bin/ExternalRules
+
+#run nm-applet &
+#blueberry-tray &
+#run volumeicon &
+
+xsettingsd --config="$BSPDIR"/xsettingsd &
+
+bash ~/.fehbg
+
+bspbar
+bspcomp
+bspfloat &
+low_bat_notifier.sh &
+xsetroot -cursor_name left_ptr
+
+#/usr/lib/xfce-polkit/xfce-polkit &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+xfce4-power-manager &
+telegram-desktop &
+#zapzap &
+#thunderbird &
+#electron-mail &

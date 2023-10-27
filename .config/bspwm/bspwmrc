@@ -1,0 +1,77 @@
+#!/usr/bin/bash
+
+BSPDIR="$HOME/.config/bspwm/"
+SCRIDIR="$HOME/.scripts/"
+export PATH="${PATH}:$BSPDIR/scripts"
+export PATH="${PATH}:$BSPDIR/bin"
+export PATH="${PATH}:$SCRIDIR"
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+wmname I USE ARCH BTW
+
+BSPWM_FBC='#0997B3'
+BSPWM_NBC='#ffffff'
+BSPWM_ABC='#a626a4'
+BSPWM_PFC='#50a14f'
+
+BSPWM_BORDER='2'
+BSPWM_GAP='10'
+BSPWM_SRATIO='0.50'
+
+"${HOME}/.screenlayout/resolution.sh"
+
+if [[ $(xrandr -q | grep "eDP-1 connected") ]];
+	then
+  xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal \
+		 --output HDMI-1 --secondary \
+		 #--output VIRTUAL1 --mode 1920x1080 --pos 0x0 --rotate normal
+    bspc monitor eDP-1 -d '' '' '' '' '  ' '' '' ''
+    bspc monitor HDMI-1 -d '' ''
+    #bspc monitor eDP1 -d '1' '2' '3' '4' '5' '6' '7' '8'
+    #bspc monitor HDMI1 -d '9' '10'
+    #bspc monitor VIRTUAL1 -d '1' '2' '3' '4' '5' '6' '7' '8'
+fi
+
+## xrandr --auto && xrandr --output HDMI-1 --on
+
+"${HOME}/.config/bspwm/bin/bspstart"
+
+bspc config border_width    "$BSPWM_BORDER"
+bspc config window_gap      "$BSPWM_GAP"
+bspc config split_ratio "$BSPWM_SRATIO"
+
+bspc config focused_border_color "$BSPWM_FBC"
+bspc config normal_border_color "$BSPWM_NBC"
+bspc config active_border_color "$BSPWM_ABC"
+bspc config presel_feedback_color "$BSPWM_PFC"
+
+bspc config top_padding			            0
+bspc config bottom_padding		          0
+bspc config left_padding 		            0
+bspc config right_padding 		          0
+
+bspc config remove_disabled_monitors 	  true
+bspc config remove_unplugged_monitors 	true
+bspc config merge_overlapping_monitors	true
+
+bspc config automatic_scheme		        automatic #spiral
+
+bspc config gapless_monocle             true
+bspc config paddingless_monocle 	      true
+bspc config single_monocle 	    	      false
+bspc config borderless_monocle		      true
+bspc config presel_feedback		          true
+bspc config auto_alternate		          true
+
+bspc config pointer_follows_focus       false
+bspc config focus_follows_pointer 	    true
+bspc config pointer_follows_windows	    true
+bspc config pointer_follows_monitor 	  true
+
+bspc config pointer_action1 		        move
+bspc config pointer_action2 		        resize_side
+bspc config pointer_action3 		        resize_corner
+
+# WM Rules
+bspc wm --adopt-orphans
+bspc rule -r *:*

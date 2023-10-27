@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+
+wid=$1
+class=$2
+instance=$3
+consequences=$4
+
+main () {
+case "$class" in
+FloaTerm)
+	eval "$consequences"
+	[ "$state" ] || echo "state=floating center=on"
+;;
+alacritty-float|Mousepad|Leafpad)
+	eval "$consequences"
+	[ "$state" ] || echo "state=floating center=on"
+;;
+Caprine)
+    eval "$consequences"
+    [ "$state" ] || echo "state=tiled desktop=^6 follow=off rectangle=1000x600+0+0"
+;;
+kitty)
+		eval "$consequences"
+		[ "$state" ] || echo "state=floating center=on rectangle=900x550+0+0"
+;;
+Bitwarden|MegaSync)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=floating desktop=^8 center=on sticky=off"
+;;
+mpv|File-roller)
+	    eval "$consequences"
+ 	    [ "$state" ] || echo "state=floating focus=on center=on rectangle=720x400+0+0"
+;;
+Thunar|Eog)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=floating follow=on"
+;;
+firefox|LibreWolf|Thorium-browser|Navigator)
+		eval "$consequences"
+	    [ "$state" ] || echo "state=tiled desktop=^2 follow=on"
+;;
+Nemo|qBittorrent)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=tiled desktop=^3 follow=on"
+;;
+VsCodium|Nvim|Joplin|libreoffice-startcenter|code)
+		eval "$consequences"
+		[ "$state" ] || echo "state=tiled desktop=^4 follow=on"
+;;
+Inkscape)
+		eval "$consequences"
+		[ "$state" ] || echo "state=tiled desktop=^5 follow=on"
+;;
+Zathura|Evince)
+		eval "$consequences"
+		[ "$state" ] || echo "state=pseudo_tiled desktop=^5 follow=on"
+;;
+ZapZap|TelegramDesktop|Mailspring|electron-mail|thunderbird|Mail)
+	  eval "$consequences"
+	  [ "$state" ] || echo "state=tiled desktop=^6 follow=off focus=off"
+;;
+Exaile|Ranger)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=pseudo_tiled desktop=^7 follow=on"
+;;
+Blueberry.py|GParted|Pavucontrol|Arandr|Lxappearance|'VirtualBox Manager'|VirtualBox|Lxinput)
+	    eval "$consequences"
+	    [ "$state" ] || echo "state=floating desktop=^8 center=on follow=on"
+;;
+"")
+  sleep 0.5
+	wm_class=($(xprop -id $wid | grep "WM_CLASS" | grep -Po '"\K[^,"]+'))
+	class=${wm_class [-1]}
+	[[ ${#wm_class[@]} == "2" ]] && instance=${wm_class[0]}
+	[[ -n "$class" ]] && main
+	;;
+esac
+}
+main
+
+case "$instance" in
+     Toolkit)
+        eval "$consequences"
+        [ "$state" ] || echo "state=floating sticky=on rectangle=500x290+1054+593"
+	    ;;
+esac  
