@@ -1,0 +1,9 @@
+[Nemo Action]
+
+active = true
+Name=Modificar con Neovim
+Comment=Edit whit Neovim 
+Exec=alacritty -e nvim %F
+Icon-Name=nvim
+Selection=any
+Extensions=;

@@ -1,0 +1,20 @@
+/home/f3rnandst/.config/bspwm/bspwmrc 			>> bspwmrc
+/home/f3rnandst/.config/bspwm/bin/ExternalRules 	>> ExternalRules
+/home/f3rnandst/.config/bspwm/sxhkdrc 			>> sxhkdrc
+/home/f3rnandst/.config/bspwm/dunstrc 			>> Dunstrc
+/home/f3rnandst/.config/polybar/config.ini 	    	>> Polybar Config
+/home/f3rnandst/.config/polybar/modules.ini 		>> Modulos Polybar
+/home/f3rnandst/.config/bspwm/bin/autostart.sh 		>> Bspwm AutoStart
+/home/f3rnandst/.zshrc 					>> Zshrc
+/home/f3rnandst/.xinitrc 		                >> Xinitrc
+/home/f3rnandst/.config/kitty/kitty.conf 		>> Kitty Config
+/home/f3rnandst/.config/kitty/current-theme.conf 	>> Kitty Theme
+/home/f3rnandst/.config/alacritty/alacritty.yml 	>> Alacritty Config
+/home/f3rnandst/.config/nvim/init.vim 			>> Nvim Config
+/home/f3rnandst/.config/mpv/mpv.conf 			>> Reproductor de video
+/home/f3rnandst/.config/bspwm/picom.conf 		>> Compositor
+
+/home/f3rnandst/.scripts/FILES-CONFIG 			>> Editar archivos
+/home/f3rnandst/.scripts/FILES-CONFIG-LIST 		$$ Lista de archivos editables
+/home/f3rnandst/.scripts/ROFI-SCRIPTS 			>> Editar Lanzador de scripts
+/home/f3rnandst/.scripts/ROFI-SCRIPTS-LIST 		$$ Lista de scripts

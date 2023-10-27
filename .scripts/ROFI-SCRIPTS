@@ -1,0 +1,11 @@
+#!/bin/bash
+
+chosen=$(cat /home/f3rnandst/.scripts/ROFI-SCRIPTS-LIST |\
+	rofi -dmenu -i -p Scripts ~/.config/rofi/themes/menu.rasi "Config")
+
+if [ -z "$chosen" ]; then
+	exit 0
+else
+
+exec $chosen
+fi

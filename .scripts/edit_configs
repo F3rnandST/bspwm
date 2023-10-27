@@ -1,0 +1,26 @@
+#!/bin/sh
+
+NVIM=$HOME/.config/nvim/init.lua
+BSPWM=$HOME/.config/bspwm/bspwmrc
+SXHKD=$HOME/.config/bspwm/sxhkdrc
+ZSH=$HOME/.zshrc
+POLYBAR=$HOME/.config/polybar/config.ini
+AUTOSTART=$HOME/.config/bspwm/bin/bspstart
+WINDOWS=$HOME/.config/bspwm/bin/ExternalRules
+PICOM=$HOME/.config/bspwm/picom.conf
+
+openConfig() {
+	exec alacritty -e nvim "$1"
+}
+
+case $1 in
+nvim) openConfig "$NVIM" "$1" ;;
+bspwm) openConfig "$BSPWM" "$1" ;;
+sxhkd) openConfig "$SXHKD" "$1" ;;
+zsh) openConfig "$ZSH" "$1" ;;
+polybar) openConfig "$POLYBAR" "$1" ;;
+autostart) openConfig "$AUTOSTART" "$1" ;;
+windows) openConfig "$WINDOWS" "$1" ;;
+picom) openConfig "$PICOM" "$1" ;;
+*) ;;
+esac

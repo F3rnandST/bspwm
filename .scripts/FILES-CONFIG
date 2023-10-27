@@ -1,0 +1,9 @@
+#!/bin/bash
+
+chosen=$(cat /home/f3rnandst/.scripts/FILES-CONFIG-LIST | rofi -dmenu -i -p -theme ~/.config/rofi/themes/menu.rasi "Config")
+
+if [ -z "$chosen" ]; then
+    exit 0
+else
+/usr/bin/kitty -e nvim $chosen
+fi
